@@ -129,7 +129,7 @@ def calculate_similar_canteen(data_dict, n=10):
 
 
 if __name__ == "__main__":
-    import handle_data
+    from src import handle_data
 
     print("mian")
     data_comments = handle_data.comments
